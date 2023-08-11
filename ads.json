@@ -11,6 +11,12 @@
         "lastUpdated": "1691757828445",
         "tags": [
             "openid-connect"
-        ]
+        ],
+        "configs": {
+            "jgomer2001.io.jans.inbound.oidc_code": {
+                "uidPrefix": "Value to prefix to the sub claim released by the OP for user onboarding",
+                "oidc": "OIDC configurations in the form of a dictionary, see README"
+            }
+        }
     }
 }
