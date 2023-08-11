@@ -1,2 +1,6 @@
 Flow jgomer2001.io.jans.inbound.oauth2.AuthzCodeWithUserInfo
      Basepath ""
+     Inputs oauthParams
+obj = Trigger io.jans.inbound.oauth2.AuthzCode oauthParams
+token = obj.data.access_token
+p | E = Call io.jans.util.NetworkUtils#mapFromGetRequestWithToken oauthParams.userInfoEndpoint token
