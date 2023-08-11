@@ -10,4 +10,6 @@ When E is not null
      msg = Call java.lang.String#join " " msg
      obj = { success: false, error: msg }
      Finish obj
-Log "@ " __________
+Log "@debug Profile data\n" p
+obj = { success: true, data: { profile: p, tokenResponse: obj.data } }
+Finish obj
