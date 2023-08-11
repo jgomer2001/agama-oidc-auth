@@ -14,3 +14,7 @@ Log "@info Redirecting to external site"
 responseParams = RFAC url
 Log "@info Browser taken back to redirect URI"
 code = Call codeGrantUtil parseCode responseParams state
+response = Call codeGrantUtil getTokenResponse code
+Log "@info An access token has been obtained"
+obj = { success: true, data: response }
+Finish obj
