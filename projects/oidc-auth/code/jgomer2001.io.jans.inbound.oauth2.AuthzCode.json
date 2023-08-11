@@ -62,9 +62,10 @@
 					"nodeColor": "",
 					"exceptionVariableField": "",
 					"nodeIcon": "material-symbols:line-end-square-rounded"
-				}
+				},
+				"skake": false
 			},
-			"selected": true,
+			"selected": false,
 			"dragging": false,
 			"positionAbsolute": {
 				"x": 2677.3463097188055,
@@ -132,7 +133,8 @@
 					"nodeColor": "",
 					"exceptionVariableField": "",
 					"nodeIcon": "material-symbols:equal"
-				}
+				},
+				"skake": false
 			},
 			"selected": false,
 			"dragging": false,
@@ -202,7 +204,8 @@
 					"nodeColor": "",
 					"exceptionVariableField": "",
 					"nodeIcon": "octicon:log-16"
-				}
+				},
+				"skake": false
 			},
 			"selected": false,
 			"dragging": false,
@@ -273,7 +276,8 @@
 					"exceptionVariableField": "",
 					"nodeIcon": "material-symbols:code",
 					"asssignedVariableName": "response"
-				}
+				},
+				"skake": false
 			},
 			"selected": false,
 			"dragging": false,
@@ -1148,7 +1152,7 @@
 					"inRepeatBlock": false,
 					"name": "",
 					"basepath": "",
-					"comment": "",
+					"comment": "OAuth 2.0 code flow",
 					"notes": "",
 					"flowfilename": "",
 					"assignments": [
@@ -1174,7 +1178,7 @@
 					"maxIterationVariableName": "",
 					"logLevel": "",
 					"assignCallbackResult": "",
-					"displayName": "OAuth code flow",
+					"displayName": "",
 					"nodeColor": "",
 					"exceptionVariableField": "",
 					"flowname": "jgomer2001.io.jans.inbound.oauth2.AuthzCode",
@@ -1187,7 +1191,7 @@
 				"x": 30,
 				"y": 30
 			},
-			"selected": false,
+			"selected": true,
 			"dragging": false,
 			"positionAbsolute": {
 				"x": 30,
@@ -1472,8 +1476,8 @@
 		}
 	],
 	"viewport": {
-		"x": -1106.9162396244717,
-		"y": 48.78851377283709,
+		"x": 72.21578874757904,
+		"y": 77.32518832062897,
 		"zoom": 0.7536674547791904
 	}
 }
