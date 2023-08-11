@@ -10,3 +10,7 @@ Log "@info Creating an authorization request"
 url = Call codeGrantUtil makeAuthzRequest 
 state = url.second
 url = url.first
+Log "@info Redirecting to external site"
+responseParams = RFAC url
+Log "@info Browser taken back to redirect URI"
+code = Call codeGrantUtil parseCode responseParams state
