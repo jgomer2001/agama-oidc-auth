@@ -1,24 +1,4 @@
 {
-    "oidc-auth": {
-        "projectName": "oidc-auth",
-        "description": "Authentication using an external OpenID Connect provider with the 'code' flow",
-        "type": "community",
-        "author": "jgomer2001",
-        "version": "1.0.0",
-        "authorWebsite": "https://github.com/jgomer2001/agama-oidc-auth",
-        "githubUri": "https://github.com/jgomer2001/agama-oidc-auth",
-        "license": "MIT",
-        "lastUpdated": "1691757828445",
-        "tags": [
-            "openid-connect"
-        ],
-        "configs": {
-            "jgomer2001.io.jans.inbound.oidc_code": {
-                "uidPrefix": "Value to prefix to the sub claim released by the OP for user onboarding",
-                "oidc": "OIDC configurations in the form of a dictionary, see README"
-            }
-        }
-    },
     "agama-openid": {
         "projectName": "agama-openid",
         "description": "Authentication using an external OpenID Connect provider with the 'code' flow",
