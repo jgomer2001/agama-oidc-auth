@@ -48,6 +48,9 @@
             "social-logins"
         ],
         "noDirectLaunch": [],
-        "configs": {}
+        "configs": {
+            "co.cos": {}
+        },
+        "name": "delete"
     }
 }
