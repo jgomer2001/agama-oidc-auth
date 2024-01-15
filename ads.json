@@ -47,9 +47,15 @@
         "tags": [
             "social-logins"
         ],
-        "noDirectLaunch": [],
+        "noDirectLaunch": [
+            "co.cos"
+        ],
         "configs": {
-            "co.cos": {}
+            "co.cos": {
+                "hi": {
+                    "world": "pleasure"
+                }
+            }
         },
         "name": "delete"
     }
