@@ -33,21 +33,5 @@
             }
         },
         "name": "agama-openid"
-    },
-    "delete": {
-        "projectName": "delete",
-        "description": "delete",
-        "type": "community",
-        "author": "jgomer2001",
-        "version": "0.0.1",
-        "authorWebsite": "https://github.com/jgomer2001/agama-oidc-auth",
-        "githubUri": "https://github.com/jgomer2001/agama-oidc-auth",
-        "license": "apache-2.0",
-        "lastUpdated": "1704800384458",
-        "tags": [
-            "jans"
-        ],
-        "noDirectLaunch": [],
-        "configs": {}
     }
 }
