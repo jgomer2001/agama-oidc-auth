@@ -1,2 +1,6 @@
+// so much mocos
 Flow co.cos
      Basepath ""
+     Inputs ini
+Log "@info like no other"
+Finish 1
