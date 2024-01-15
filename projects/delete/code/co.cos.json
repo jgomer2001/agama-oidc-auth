@@ -29,11 +29,11 @@
 					"hasComment": true,
 					"comment": "",
 					"flowfilename": "",
-					"returnVariable": "true",
+					"returnVariable": "\"hello\"",
 					"finishMode": "withSuccess",
 					"nodeIcon": "material-symbols:line-end-square-rounded"
 				},
-				"skake": true
+				"skake": false
 			},
 			"selected": true,
 			"dragging": false,
